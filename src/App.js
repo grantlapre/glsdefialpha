@@ -15,11 +15,12 @@ function App() {
       
       
       <Header />
-      <button onClick={()=> <mintFour/>>}>Owner to mint 4</button>
-      <Container classname="p-3">
+      <button onClick={()=> <mintFour/>}>Owner to mint 4</button>
+      <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
-          <ButtonGroup>Mint Amount:
+          <h4>Mint Amount</h4>
+          <ButtonGroup>
             <Button>1</Button>
             <Button>2</Button>
             <Button>3</Button>
