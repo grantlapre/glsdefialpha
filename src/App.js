@@ -17,7 +17,7 @@ function App() {
     functionName:"publicSaleMint",
     params:{
       _symAmount : 1,
-      payableAmount : 60000000000000000,
+      msg.value : 60000000000000000,
     }
   };
   const pausedSt= {
@@ -72,7 +72,7 @@ function App() {
       </Container>
       <Container>
        
-          <h4>Sale State..</h4>
+          <h4>Sale State....</h4>
           <ButtonGroup>
             <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
