@@ -1,6 +1,6 @@
 
 import {useWeb3Contract} from 'react-moralis';
-import {abi} from './constants/abi';
+import {abi} from '../constants/abi';
 
 export default function mintFour() {
         const mintF = {
