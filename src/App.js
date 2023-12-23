@@ -4,7 +4,6 @@ import './App.css';
 import Header from './components/Header'; 
 import {useWeb3Contract} from 'react-moralis';
 import {abi} from './constants/abi';
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
 
@@ -25,9 +24,9 @@ function App() {
       <Header />
       <button onClick={()=> runContractFunction()}>Owner to mint 4</button>
       <Container classname="p-3">
-        <Jumbotron>
+       
           <h1 classname="header">GLSDefi Alpha Project</h1>
-        </Jumbotron>
+ 
       </Container>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
