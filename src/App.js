@@ -16,7 +16,7 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"publicSaleMint",
     params:{
-      payableAmount : 0.06,
+      MsgValue : 60000000000000000,
       _symAmount : 1,
     }
   };
