@@ -25,7 +25,7 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"setSaleState",
     params:{
-      _newState : 1,
+      _newState : 0,
     }
   };
   const saleSt = {
@@ -33,7 +33,7 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"setSaleState",
     params:{
-      _newState : 3,
+      _newState : 2,
     }
   };
 
