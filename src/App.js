@@ -10,7 +10,7 @@ import {abi} from './constants/abi';
 
 
 function App() {
-  const {runContractFunctio} = useWeb3Contract({
+  const {runContractFunction} = useWeb3Contract({
     abi: abi, 
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"AllowOwnerMint",
