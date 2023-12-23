@@ -11,8 +11,8 @@ export default function mintFour() {
               _symAmount : 4,
           },
         };
-        const {runContractFunction, isFetching, isLoading} = useWeb3Contract();
-        const {runContractFunction: mintFour} = useWeb3Contract();
+        
+        const {runContractFunction} = useWeb3Contract();
         return(
             runContractFunction({params:mintF})
         );   
