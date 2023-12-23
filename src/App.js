@@ -3,9 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'; 
 import Container from 'react-bootstrap/Container';
+<<<<<<< HEAD
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import mintFour from './components/mintFour';
+=======
+>>>>>>> parent of a644535 (Buttons)
 
 
 function App() {
@@ -19,6 +22,7 @@ function App() {
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
+<<<<<<< HEAD
           <h4>Mint Amount</h4>
           <ButtonGroup>
             <Button>1</Button>
@@ -42,6 +46,8 @@ function App() {
             <Button>19</Button>
             <Button>20</Button>
           </ButtonGroup>
+=======
+>>>>>>> parent of a644535 (Buttons)
  
       </Container>
       <header className="App-header">
