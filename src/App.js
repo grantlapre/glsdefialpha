@@ -16,7 +16,6 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"publicSaleMint",
     params:{
-      payableAmount : 0.06 (ether),
       _symAmount : 1,
     }
   };
