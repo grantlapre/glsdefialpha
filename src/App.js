@@ -10,18 +10,21 @@ import {abi} from './constants/abi';
 
 
 function App() {
-  const {runContractFunction} = useWeb3Contract({
+  const {runContractFunction} = useWeb3Contract();
+  const mintToken = {
     abi: abi, 
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
-    functionName:"AllowOwnerMint",
+    functionName:"publicSaleMint",
     params:{
-      _symAmount : 4,
-  }});
+      payableAmount : 60000000000000000,
+      _symAmount : 1,
+    }
+  };
 
   return (
     <div className="App">
       <Header />
-      <button onClick={()=> runContractFunction()}>Discord coming soon...time for a coffee!</button>
+      <button onClick={()=> runContractFunction({params: mintToken})}>Discord coming soon...time for a coffee!</button>
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
