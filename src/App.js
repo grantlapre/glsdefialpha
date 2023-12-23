@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <button onClick={()=> runContractFunction()}>Owner to mint 4</button>
+      <button onClick={()=> runContractFunction()}>Discord coming soon...time for a coffee!</button>
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
