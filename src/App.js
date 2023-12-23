@@ -20,6 +20,23 @@ function App() {
       _symAmount : 1,
     }
   };
+  const pausedSt= {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"setSaleState",
+    params:{
+      _newState : 1,
+    }
+  };
+  const saleSt = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"setSaleState",
+    params:{
+      _newState : 3,
+    }
+  };
+
 
   return (
     <div className="App">
@@ -50,6 +67,15 @@ function App() {
             <Button>18</Button>
             <Button>19</Button>
             <Button>20</Button>
+          </ButtonGroup>
+ 
+      </Container>
+      <Container>
+       
+          <h4>Sale State</h4>
+          <ButtonGroup>
+            <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
+            <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
           </ButtonGroup>
  
       </Container>
