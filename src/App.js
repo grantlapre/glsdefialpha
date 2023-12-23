@@ -7,6 +7,7 @@ import {abi} from './constants/abi';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import mintFour from './components/mintFour';
 
 
 function App() {
@@ -19,16 +20,18 @@ function App() {
       _symAmount : 4,
     },
   });
+
+  const {}
   return (
     <div className="App">
       
       
       <Header />
-      <button onClick={()=> runContractFunction()}>Owner to mint 4</button>
+      <button onClick={()=> <mintFour/>>}>Owner to mint 4</button>
       <Container classname="p-3">
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
-          <ButtonGroup>
+          <ButtonGroup>Mint Amount:
             <Button>1</Button>
             <Button>2</Button>
             <Button>3</Button>
@@ -44,6 +47,11 @@ function App() {
             <Button>13</Button>
             <Button>14</Button>
             <Button>15</Button>
+            <Button>16</Button>
+            <Button>17</Button>
+            <Button>18</Button>
+            <Button>19</Button>
+            <Button>20</Button>
           </ButtonGroup>
  
       </Container>
