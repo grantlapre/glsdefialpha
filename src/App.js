@@ -17,7 +17,7 @@ function App() {
     functionName:"publicSaleMint",
     params:{
       _symAmount : 1,
-      msg.value : 60000000000000000,
+      payableAmount : 0.06,
     }
   };
   const pausedSt= {
