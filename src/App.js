@@ -3,26 +3,28 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'; 
 import Container from 'react-bootstrap/Container';
-<<<<<<< HEAD
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import mintFour from './components/mintFour';
-=======
->>>>>>> parent of a644535 (Buttons)
+import {useWeb3Contract} from 'react-moralis';
+import {abi} from './constants/abi';
 
 
 function App() {
-  
+  const {runContractFunctio} = useWeb3Contract({
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"AllowOwnerMint",
+    params:{
+      _symAmount : 4,
+  }});
+
   return (
     <div className="App">
-      
-      
       <Header />
-      <button onClick={()=> <mintFour/>}>Owner to mint 4</button>
+      <button onClick={()=> runContractFunction()}>Owner to mint 4</button>
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
-<<<<<<< HEAD
           <h4>Mint Amount</h4>
           <ButtonGroup>
             <Button>1</Button>
@@ -46,8 +48,6 @@ function App() {
             <Button>19</Button>
             <Button>20</Button>
           </ButtonGroup>
-=======
->>>>>>> parent of a644535 (Buttons)
  
       </Container>
       <header className="App-header">
