@@ -18,7 +18,7 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"publicSaleMint",
     params:{
-      payableAmount: Moralis.Units.ETH(0.6),
+      payableAmount: Moralis.Units.ETH("0.6"),
       _symAmount : 1,
     }
   };
@@ -74,7 +74,7 @@ function App() {
       </Container>
       <Container>
        
-          <h4>Sale State..</h4>
+          <h4>Sale State....</h4>
           <ButtonGroup>
             <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
