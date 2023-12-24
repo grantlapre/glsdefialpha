@@ -6,17 +6,19 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import {useWeb3Contract} from 'react-moralis';
+import { useMoralis } from "react-moralis";
 import {abi} from './constants/abi';
 
 
 function App() {
   const {runContractFunction} = useWeb3Contract();
+  const { Moralis } = useMoralis();
   const mintToken = {
     abi: abi, 
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"publicSaleMint",
     params:{
-      MsgValue : 60000000000000000,
+      MsgValue : Moralis.Units.ETH(0.6),
       _symAmount : 1,
     }
   };
