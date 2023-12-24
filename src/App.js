@@ -18,7 +18,7 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"publicSaleMint",
     params:{
-      MsgValue : Moralis.Units.ETH(0.6),
+      payableAmount: Moralis.Units.ETH(0.6),
       _symAmount : 1,
     }
   };
