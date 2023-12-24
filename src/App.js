@@ -18,8 +18,8 @@ function App() {
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.06"),
-    gasPrice:30000000;
-    gas: 5000000;
+    gasPrice:"30000000";
+    gas: "5000000";
     params:{
       _symAmount : 1,
     }
