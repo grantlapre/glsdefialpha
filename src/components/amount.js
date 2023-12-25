@@ -72,7 +72,50 @@ export default function Amount() {
       _symAmount : 6,
     }
   };
- 
+  const mintTokeng = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.42"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 7,
+    }
+  };
+  const mintTokenh = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.48"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 8,
+    }
+  };
+  const mintTokeni = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.54"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 9,
+    }
+  };
+  const mintTokenj = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.6"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 10,
+    }
+  };
   const getInitialState = () => {
     const value = "1";
     return value;
@@ -84,7 +127,27 @@ export default function Amount() {
     setValue(e.target.value);
     const symAmount = parseInt(e.target.value);
     console.log(symAmount);
-  };
+    switch(symAmount){
+    case 1:
+        runContractFunction({params: minTokena});
+    case 2:
+        runContractFunction({params: mintTokenb});
+    case 3:
+        runContractFunction({params: mintTokenc});
+    case 4:
+        runContractFunction({params: minTokend});
+    case 5:
+        runContractFunction({params: mintTokene});
+    case 6:
+        runContractFunction({params: mintTokenf});
+    case 7:
+        runContractFunction({params: mintTokeng});
+    case 8:
+        runContractFunction({params: minTokenh});
+    case 9:
+        runContractFunction({params: mintTokeni});
+    case 10:
+        runContractFunction({params: mintTokenj});  };
 
   return (
     <div>

@@ -5,7 +5,7 @@ import Amount from './amount';
 function Cards() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="glsdefiAlphaimg.png" />
       <Card.Body>
         <Card.Title>Mint Amount</Card.Title>
         <Card.Text>
