@@ -9,10 +9,10 @@ function Cards() {
       <Card.Body>
         <Card.Title>Mint Amount</Card.Title>
         <Card.Text>
-          Each NFT = 0.06ETH. 
+          Each NFT = 0.06ETH 
         </Card.Text>
         <Amount />
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">MINT NOW</Button>
       </Card.Body>
     </Card>
   );
