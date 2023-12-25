@@ -12,7 +12,6 @@ function Cards() {
           Each NFT = 0.06ETH 
         </Card.Text>
         <Amount />
-        <Button variant="primary" >Mint Now</Button>
       </Card.Body>
     </Card>
   );

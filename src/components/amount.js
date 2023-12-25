@@ -1,6 +1,78 @@
 import React, { useState } from "react";
+import {useWeb3Contract} from 'react-moralis';
+import { useMoralis } from "react-moralis";
+import {abi} from '../constants/abi';
 
 export default function Amount() {
+    const {runContractFunction} = useWeb3Contract();
+  const { Moralis } = useMoralis();
+  const mintTokena = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.06"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 1,
+    }
+  };
+  const mintTokenb = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.12"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 2,
+    }
+  };
+  const mintTokenc = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.18"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 3,
+    }
+  };
+  const mintTokend = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.24"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 4,
+    }
+  };
+  const mintTokene = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.3"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 5,
+    }
+  };
+  const mintTokenf = {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"publicSaleMint",
+    msgValue: Moralis.Units.ETH("0.36"),
+    gasPrice:"30000000",
+    gas: "5000000",
+    params:{
+      _symAmount : 6,
+    }
+  };
+ 
   const getInitialState = () => {
     const value = "1";
     return value;
@@ -10,6 +82,8 @@ export default function Amount() {
 
   const handleChange = (e) => {
     setValue(e.target.value);
+    const symAmount = parseInt(e.target.value);
+    console.log(symAmount);
   };
 
   return (
