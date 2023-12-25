@@ -6,7 +6,7 @@ import glogo from './glsdefiAlphaimg.png';
 function Cards() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={glogo} />
+      <Card.Img variant="top" width="300px" src={glogo} />
       <Card.Body>
         <Card.Title>Mint Amount</Card.Title>
         <Card.Text>
