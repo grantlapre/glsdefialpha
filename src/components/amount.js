@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function Amount() {
   const getInitialState = () => {
-    const value = "Orange";
+    const value = "1";
     return value;
   };
 
@@ -21,11 +21,12 @@ export default function Amount() {
         <option value="4">4</option>
         <option value="5">5</option>
         <option value="6">6</option>
-        <option value="1">7</option>
-        <option value="2">8</option>
-        <option value="3">9</option>
-        <option value="4">10</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
       </select>
+      <p></p>
       <p>{`You selected to mint ${value} NFT tokens`}</p>
     </div>
   );
