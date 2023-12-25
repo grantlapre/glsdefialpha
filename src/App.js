@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import {useWeb3Contract} from 'react-moralis';
-import { useMoralis } from "react-moralis";
 import {abi} from './constants/abi';
 import Cards from './components/cards';
 
@@ -52,7 +51,7 @@ function App() {
        
           <h4>Sale State...</h4>
           <ButtonGroup>
-            <Button onClick={()=> runContractFunction({params: pausedSt})} style = "background-color:yellow">Paused</Button>
+            <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: preSaleSt})}>Pre Sale</Button>
             <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
           </ButtonGroup>
