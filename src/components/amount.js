@@ -14,6 +14,7 @@ export default function Amount() {
 
   return (
     <div>
+        <p>Mint Now by selecting number of tokens</p>
       <select value={value} onChange={handleChange}>
         <option value="1">1</option>
         <option value="2">2</option>
