@@ -3,7 +3,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 function Amount() {
-  return (
+  
     <Dropdown>
       <DropdownButton id="amountButton" title="Dropdown button">
         <Dropdown.Item value='1'>1</Dropdown.Item>
@@ -23,9 +23,10 @@ function Amount() {
         <Dropdown.Item value='15'>15</Dropdown.Item>
     </DropdownButton>
     </Dropdown>
-    
-
-  );
+    return(
+        const symAmount = document.getElementById("amountButton").value;
+        log.console(symAmount)
+    );
 }
 
 export default Amount;
