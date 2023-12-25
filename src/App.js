@@ -62,7 +62,7 @@ function App() {
        
           <h4>Sale State...</h4>
           <ButtonGroup>
-            <Button onClick={()=> runContractFunction({params: pausedSt})} style = "background-color:yellow">Paused</Button>
+            <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: preSaleSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
           </ButtonGroup>
