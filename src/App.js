@@ -46,7 +46,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <button onClick={()=> runContractFunction({params: mintToken})}>Discord coming soon...time for a coffee!</button>
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
@@ -62,7 +61,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Real World Asset Tokenization Symmetricalv1 NFT  
+          Real World Asset Tokenization Symmetricalv2 NFT  
         </p>
         <Cards />
         <a
