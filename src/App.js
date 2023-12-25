@@ -14,17 +14,7 @@ import Cards from './components/cards';
 function App() {
   const {runContractFunction} = useWeb3Contract();
   const { Moralis } = useMoralis();
-  const mintToken = {
-    abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
-    functionName:"publicSaleMint",
-    msgValue: Moralis.Units.ETH("0.06"),
-    gasPrice:"30000000",
-    gas: "5000000",
-    params:{
-      _symAmount : 1,
-    }
-  };
+
   const pausedSt= {
     abi: abi, 
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
