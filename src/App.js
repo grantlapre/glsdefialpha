@@ -8,6 +8,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import {useWeb3Contract} from 'react-moralis';
 import { useMoralis } from "react-moralis";
 import {abi} from './constants/abi';
+import Cards from './components/cards';
 
 
 function App() {
@@ -49,32 +50,7 @@ function App() {
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
-          <h4>Mint Amount</h4>
-          <ButtonGroup>
-            <Button>1</Button>
-            <Button>2</Button>
-            <Button>3</Button>
-            <Button>4</Button>
-            <Button>5</Button>
-            <Button>6</Button>
-            <Button>7</Button>
-            <Button>8</Button>
-            <Button>9</Button>
-            <Button>10</Button>
-            <Button>11</Button>
-            <Button>12</Button>
-            <Button>13</Button>
-            <Button>14</Button>
-            <Button>15</Button>
-            <Button>16</Button>
-            <Button>17</Button>
-            <Button>18</Button>
-            <Button>19</Button>
-            <Button>20</Button>
-          </ButtonGroup>
  
-      </Container>
-      <Container>
        
           <h4>Sale State...</h4>
           <ButtonGroup>
@@ -88,6 +64,7 @@ function App() {
         <p>
           Real World Asset Tokenization Symmetricalv1 NFT  
         </p>
+        <Cards />
         <a
           className="App-link"
           href="https://glsdefi.com"
