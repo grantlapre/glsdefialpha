@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import Amount from './amount';
 import glogo from './glsdefiAlphaimg.png';

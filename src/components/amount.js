@@ -130,24 +130,36 @@ const {runContractFunction} = useWeb3Contract();
     switch(symAmount){
     case 1:
         runContractFunction({params: mintTokena});
+        break;
     case 2:
         runContractFunction({params: mintTokenb});
+        break:
     case 3:
         runContractFunction({params: mintTokenc});
+        break:
     case 4:
         runContractFunction({params: mintTokend});
+        break;
     case 5:
         runContractFunction({params: mintTokene});
+        break:
     case 6:
         runContractFunction({params: mintTokenf});
+        break:
     case 7:
         runContractFunction({params: mintTokeng});
+        break:
     case 8:
         runContractFunction({params: mintTokenh});
+        break:
     case 9:
         runContractFunction({params: mintTokeni});
+        break:
     case 10:
-        runContractFunction({params: mintTokenj});  };
+        runContractFunction({params: mintTokenj}); 
+        break:
+    default:
+  };
     };
 
   return (
