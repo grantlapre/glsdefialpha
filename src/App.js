@@ -33,6 +33,14 @@ function App() {
       _newState : 0,
     }
   };
+  const preSaleSt= {
+    abi: abi, 
+    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    functionName:"setSaleState",
+    params:{
+      _newState : 1,
+    }
+  };
   const saleSt = {
     abi: abi, 
     contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
@@ -46,7 +54,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <button onClick={()=> runContractFunction({params: mintToken})}>Discord coming soon...time for a coffee!</button>
+      
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
@@ -54,7 +62,8 @@ function App() {
        
           <h4>Sale State...</h4>
           <ButtonGroup>
-            <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
+            <Button onClick={()=> runContractFunction({params: pausedSt})} style = "background-color:yellow">Paused</Button>
+            <Button onClick={()=> runContractFunction({params: preSaleSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
           </ButtonGroup>
  
