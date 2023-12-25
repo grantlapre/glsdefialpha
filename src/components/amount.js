@@ -1,32 +1,25 @@
-import Dropdown from 'react-bootstrap/Dropdown';
+import React, { useState } from "react";
 
-import DropdownButton from 'react-bootstrap/DropdownButton';
+export default function Amount() {
+  const getInitialState = () => {
+    const value = "Orange";
+    return value;
+  };
 
-function Amount() {
-  
-    <Dropdown>
-      <DropdownButton id="amountButton" title="Dropdown button">
-        <Dropdown.Item value='1'>1</Dropdown.Item>
-        <Dropdown.Item value='2'>2</Dropdown.Item>
-        <Dropdown.Item value='3'>3</Dropdown.Item>
-        <Dropdown.Item value='4'>4</Dropdown.Item>
-        <Dropdown.Item value='5'>5</Dropdown.Item>
-        <Dropdown.Item value='6'>6</Dropdown.Item>
-        <Dropdown.Item value='7'>7</Dropdown.Item>
-        <Dropdown.Item value='8'>8</Dropdown.Item>
-        <Dropdown.Item value='9'>9</Dropdown.Item>
-        <Dropdown.Item value='10'>10</Dropdown.Item>
-        <Dropdown.Item value='11'>11</Dropdown.Item>
-        <Dropdown.Item value='12'>12</Dropdown.Item>
-        <Dropdown.Item value='13'>13</Dropdown.Item>
-        <Dropdown.Item value='14'>14</Dropdown.Item>
-        <Dropdown.Item value='15'>15</Dropdown.Item>
-    </DropdownButton>
-    </Dropdown>
-    return(
-        const symAmount = document.getElementById("amountButton").value;
-        log.console(symAmount)
-    );
+  const [value, setValue] = useState(getInitialState);
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
+
+  return (
+    <div>
+      <select value={value} onChange={handleChange}>
+        <option value="Orange">Orange</option>
+        <option value="Radish">Radish</option>
+        <option value="Cherry">Cherry</option>
+      </select>
+      <p>{`You selected ${value}`}</p>
+    </div>
+  );
 }
-
-export default Amount;
