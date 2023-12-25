@@ -24,8 +24,7 @@ function Amount() {
     </DropdownButton>
     </Dropdown>
     
-    const symAmount = document.getElementById("amountButton").value;
-    log.console(symAmount)
+
   );
 }
 
