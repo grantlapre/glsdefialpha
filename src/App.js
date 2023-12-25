@@ -60,7 +60,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Real World Asset Tokenization Symmetricalv1 NFT  
+          Real World Asset Tokenization Symmetricalv2 NFT  
         </p>
         <Cards />
         <a
