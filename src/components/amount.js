@@ -22,8 +22,10 @@ function Amount() {
         <Dropdown.Item value='14'>14</Dropdown.Item>
         <Dropdown.Item value='15'>15</Dropdown.Item>
     </DropdownButton>
+    </Dropdown>
+    
     const symAmount = document.getElementById("amountButton").value;
-    document.getElementById("amountButton").title.value = "{symAmount}";
+    log.console(symAmount)
   );
 }
 
