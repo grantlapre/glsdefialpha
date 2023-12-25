@@ -133,31 +133,31 @@ const {runContractFunction} = useWeb3Contract();
         break;
     case 2:
         runContractFunction({params: mintTokenb});
-        break:
+        break;
     case 3:
         runContractFunction({params: mintTokenc});
-        break:
+        break;
     case 4:
         runContractFunction({params: mintTokend});
         break;
     case 5:
         runContractFunction({params: mintTokene});
-        break:
+        break;
     case 6:
         runContractFunction({params: mintTokenf});
-        break:
+        break;
     case 7:
         runContractFunction({params: mintTokeng});
-        break:
+        break;
     case 8:
         runContractFunction({params: mintTokenh});
-        break:
+        break;
     case 9:
         runContractFunction({params: mintTokeni});
-        break:
+        break;
     case 10:
         runContractFunction({params: mintTokenj}); 
-        break:
+        break;
     default:
   };
     };
