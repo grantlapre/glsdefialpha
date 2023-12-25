@@ -4,7 +4,7 @@ import { useMoralis } from "react-moralis";
 import {abi} from '../constants/abi';
 
 export default function Amount() {
-    const {runContractFunction} = useWeb3Contract();
+const {runContractFunction} = useWeb3Contract();
   const { Moralis } = useMoralis();
   const mintTokena = {
     abi: abi, 
@@ -129,13 +129,13 @@ export default function Amount() {
     console.log(symAmount);
     switch(symAmount){
     case 1:
-        runContractFunction({params: minTokena});
+        runContractFunction({params: mintTokena});
     case 2:
         runContractFunction({params: mintTokenb});
     case 3:
         runContractFunction({params: mintTokenc});
     case 4:
-        runContractFunction({params: minTokend});
+        runContractFunction({params: mintTokend});
     case 5:
         runContractFunction({params: mintTokene});
     case 6:
@@ -143,7 +143,7 @@ export default function Amount() {
     case 7:
         runContractFunction({params: mintTokeng});
     case 8:
-        runContractFunction({params: minTokenh});
+        runContractFunction({params: mintTokenh});
     case 9:
         runContractFunction({params: mintTokeni});
     case 10:
