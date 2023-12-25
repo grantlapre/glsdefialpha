@@ -49,7 +49,7 @@ function App() {
           <h1 classname="header">GLSDefi Alpha Project</h1>
  
        
-          <h4>Sale State...</h4>
+          <h4 style="background-color:green">Current State: Sale State...</h4>
           <ButtonGroup>
             <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
             <Button onClick={()=> runContractFunction({params: preSaleSt})}>Pre Sale</Button>
