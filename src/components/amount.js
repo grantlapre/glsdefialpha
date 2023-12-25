@@ -15,11 +15,18 @@ export default function Amount() {
   return (
     <div>
       <select value={value} onChange={handleChange}>
-        <option value="Orange">Orange</option>
-        <option value="Radish">Radish</option>
-        <option value="Cherry">Cherry</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="1">7</option>
+        <option value="2">8</option>
+        <option value="3">9</option>
+        <option value="4">10</option>
       </select>
-      <p>{`You selected ${value}`}</p>
+      <p>{`You selected to mint ${value} NFT tokens`}</p>
     </div>
   );
 }
