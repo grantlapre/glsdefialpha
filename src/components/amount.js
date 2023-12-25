@@ -23,7 +23,7 @@ function Amount() {
         <Dropdown.Item value='15'>15</Dropdown.Item>
     </DropdownButton>
     const symAmount = document.getElementById("amountButton").value;
-    document.getElementById("amountButton").title = {symAmount};
+    document.getElementById("amountButton").title.value = "${symAmount}"
   );
 }
 
