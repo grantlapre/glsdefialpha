@@ -148,6 +148,7 @@ export default function Amount() {
         runContractFunction({params: mintTokeni});
     case 10:
         runContractFunction({params: mintTokenj});  };
+    };
 
   return (
     <div>
