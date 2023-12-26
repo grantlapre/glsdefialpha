@@ -1,15 +1,14 @@
-
 import {abi} from '../constants/abi';
-require("dotenv").config();
 import {useWeb3Contract} from 'react-moralis';
 import { useMoralis } from "react-moralis";
+require("dotenv").config();
 
 export default function Supply(){
     const {REACT_APP_MORALIS_KEY} = process.env;
     const {runContractFunction} = useWeb3Contract();
     const { Moralis } = useMoralis();
 Moralis.start({
-    apiKey: REACT_APP_MORALIS_KEY
+    apiKey: REACT_APP_MORALIS_KEY.process.env
 }).then(async() => {
 
     const response = await Moralis.EvmApi.utils.runContractFunction({
