@@ -2,6 +2,7 @@
 import Card from 'react-bootstrap/Card';
 import Amount from './amount';
 import glogo from './glsdefiAlphaimg.png';
+import Supply from '.supply';
 
 function Cards() {
   return (
@@ -10,9 +11,10 @@ function Cards() {
       <Card.Body>
         <Card.Title>Mint Amount</Card.Title>
         <Card.Text>
-          Each NFT = 0.06ETH 
+          Each NFT = 0.06ETH ...
         </Card.Text>
         <Amount />
+        <Supply />
       </Card.Body>
     </Card>
   );
