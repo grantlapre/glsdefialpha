@@ -6,11 +6,11 @@ const Moralis = require("moralis").default;
 
 export default function Supply(){
     
-    const {REACT_APP_MORALIS_KEY} = process.env;
+
     const {runContractFunction} = useWeb3Contract();
     const { Moralis } = useMoralis();
 Moralis.start({
-    apiKey: REACT_APP_MORALIS_KEY.process.env
+    apiKey: process.env.REACT_APP_MORALIS_KEY
 }).then(async() => {
 
     const response = await Moralis.EvmApi.utils.runContractFunction({
