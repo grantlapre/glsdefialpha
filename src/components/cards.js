@@ -9,7 +9,7 @@ function Cards() {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" width = "300px" src={glogo} />
       <Card.Body>
-        <Card.Title>Mint Amount<.../Card.Title>
+        <Card.Title>Mint Amount...</Card.Title>
         <Card.Text>
           Each NFT = 0.06ETH
         </Card.Text>
