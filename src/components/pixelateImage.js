@@ -7,11 +7,11 @@ import img4 from './image4.png';
 import img5 from './image5.png';
 
 const images = [
-  'img1',
-  'img2',
-  'img3',
-  'img4',
-  'img5',
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
   // Add more image URLs as needed
 ];
 
