@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/glsdefialpha/static/css/main.14d3eb40.css",
-    "main.js": "/glsdefialpha/static/js/main.d378d8f8.js",
+    "main.js": "/glsdefialpha/static/js/main.e89499b7.js",
     "static/js/465.ec47d1f7.chunk.js": "/glsdefialpha/static/js/465.ec47d1f7.chunk.js",
     "static/js/137.2d90ffb6.chunk.js": "/glsdefialpha/static/js/137.2d90ffb6.chunk.js",
     "static/js/699.ebd5ac87.chunk.js": "/glsdefialpha/static/js/699.ebd5ac87.chunk.js",
@@ -33,11 +33,10 @@
     "static/js/798.56c3a6e1.chunk.js": "/glsdefialpha/static/js/798.56c3a6e1.chunk.js",
     "static/media/glsdefiAlphaimg.png": "/glsdefialpha/static/media/glsdefiAlphaimg.f0b232fc2b7ede9d409c.png",
     "static/media/logo.svg": "/glsdefialpha/static/media/logo.76ab0ce5a5da925a4f9f9fe4a61515ce.svg",
-    "static/media/index.cjs": "/glsdefialpha/static/media/index.e302c45f919f59dc4458.cjs",
     "index.html": "/glsdefialpha/index.html"
   },
   "entrypoints": [
     "static/css/main.14d3eb40.css",
-    "static/js/main.d378d8f8.js"
+    "static/js/main.e89499b7.js"
   ]
 }
