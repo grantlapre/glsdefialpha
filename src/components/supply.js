@@ -1,5 +1,5 @@
 
-import {abi} from '..constants/abi';
+import {abi} from '../constants/abi';
 require("dotenv").config();
 import {useWeb3Contract} from 'react-moralis';
 import { useMoralis } from "react-moralis";
