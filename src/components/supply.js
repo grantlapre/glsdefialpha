@@ -14,10 +14,9 @@ Moralis.start({
 }).then(async() => {
 
     const response = await Moralis.EvmApi.utils.runContractFunction({
-        address: "0xd41DD996Ad1a0da8922A8182A64586307136a37c",
-        functionName: totalSupply,
+        contractAddress: "0xd41DD996Ad1a0da8922A8182A64586307136a37c",
         abi: abi,
-
+        functionName: totalSupply,
   
     });
     console.log(response.raw);
