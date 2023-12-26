@@ -36,6 +36,7 @@ const PixelateImage = () => {
         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
         className="image"
+        width="280px"
       />
     </div>
   );
