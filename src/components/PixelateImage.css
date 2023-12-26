@@ -3,5 +3,5 @@
   }
   
   .pixelated {
-    filter: blur(8px);
+    filter: blur(50px);
   }
