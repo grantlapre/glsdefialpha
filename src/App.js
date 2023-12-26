@@ -52,7 +52,6 @@ function App() {
           <h4>Current State: Paused...</h4>
           <ButtonGroup>
             <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
-            <Button onClick={()=> runContractFunction({params: preSaleSt})}>Pre Sale</Button>
             <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
           </ButtonGroup>
  
@@ -60,7 +59,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Real World Asset Tokenization Symmetricalv2 NFT  
+          Real World Asset Tokenization NFT  
         </p>
         <Cards />
         <a
