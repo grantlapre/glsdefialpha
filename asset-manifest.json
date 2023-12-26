@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/glsdefialpha/static/css/main.14d3eb40.css",
-    "main.js": "/glsdefialpha/static/js/main.e89499b7.js",
+    "main.js": "/glsdefialpha/static/js/main.dbf65e5b.js",
     "static/js/465.ec47d1f7.chunk.js": "/glsdefialpha/static/js/465.ec47d1f7.chunk.js",
     "static/js/137.2d90ffb6.chunk.js": "/glsdefialpha/static/js/137.2d90ffb6.chunk.js",
     "static/js/699.ebd5ac87.chunk.js": "/glsdefialpha/static/js/699.ebd5ac87.chunk.js",
@@ -24,7 +24,7 @@
     "static/js/267.17978c26.chunk.js": "/glsdefialpha/static/js/267.17978c26.chunk.js",
     "static/js/288.986caa50.chunk.js": "/glsdefialpha/static/js/288.986caa50.chunk.js",
     "static/js/508.622a3d3a.chunk.js": "/glsdefialpha/static/js/508.622a3d3a.chunk.js",
-    "static/js/480.ef2d15df.chunk.js": "/glsdefialpha/static/js/480.ef2d15df.chunk.js",
+    "static/js/480.64af5ef5.chunk.js": "/glsdefialpha/static/js/480.64af5ef5.chunk.js",
     "static/js/889.6c2464b1.chunk.js": "/glsdefialpha/static/js/889.6c2464b1.chunk.js",
     "static/js/550.56320f42.chunk.js": "/glsdefialpha/static/js/550.56320f42.chunk.js",
     "static/js/562.24791a79.chunk.js": "/glsdefialpha/static/js/562.24791a79.chunk.js",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.14d3eb40.css",
-    "static/js/main.e89499b7.js"
+    "static/js/main.dbf65e5b.js"
   ]
 }
