@@ -1,12 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './PixelateImage.css'; // Import the CSS file for styling
+import img1 from './image1.png';
+import img2 from './image2.png';
+import img3 from './image3.png';
+import img4 from './image4.png';
+import img5 from './image5.png';
 
 const images = [
-  './image1.png',
-  './image2.png',
-  './image3.png',
-  './image4.png',
-  './image5.png',
+  '{img1}',
+  '{img2}',
+  '{img3}',
+  '{img4}',
+  '{img5}',
   // Add more image URLs as needed
 ];
 
