@@ -2,7 +2,7 @@
 import Card from 'react-bootstrap/Card';
 import Amount from './amount';
 import glogo from './glsdefiAlphaimg.png';
-import Supply from '.supply';
+import Supply from './supply';
 
 function Cards() {
   return (
