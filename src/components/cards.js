@@ -2,12 +2,14 @@
 import Card from 'react-bootstrap/Card';
 import Amount from './amount';
 import glogo from './glsdefiAlphaimg.png';
+import PixelateImage from './pixelateImage';
 
 
 function Cards() {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" width = "300px" src={glogo} />
+      <PixelateImage />
       <Card.Body>
         <Card.Title>Mint Amount...</Card.Title>
         <Card.Text>
