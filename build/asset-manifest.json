@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/glsdefialpha/static/css/main.14d3eb40.css",
-    "main.js": "/glsdefialpha/static/js/main.afed122e.js",
+    "main.js": "/glsdefialpha/static/js/main.d1694c73.js",
     "static/js/465.ec47d1f7.chunk.js": "/glsdefialpha/static/js/465.ec47d1f7.chunk.js",
     "static/js/137.2d90ffb6.chunk.js": "/glsdefialpha/static/js/137.2d90ffb6.chunk.js",
     "static/js/699.ebd5ac87.chunk.js": "/glsdefialpha/static/js/699.ebd5ac87.chunk.js",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.14d3eb40.css",
-    "static/js/main.afed122e.js"
+    "static/js/main.d1694c73.js"
   ]
 }
