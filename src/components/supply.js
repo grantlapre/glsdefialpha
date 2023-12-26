@@ -2,8 +2,10 @@ import {abi} from '../constants/abi';
 import {useWeb3Contract} from 'react-moralis';
 import { useMoralis } from "react-moralis";
 require("dotenv").config();
+const Moralis = require("moralis").default;
 
 export default function Supply(){
+    
     const {REACT_APP_MORALIS_KEY} = process.env;
     const {runContractFunction} = useWeb3Contract();
     const { Moralis } = useMoralis();
@@ -16,7 +18,7 @@ Moralis.start({
         functionName: totalSupply,
         abi: abi,
 
-
+  
     });
     console.log(response.raw);
 });
