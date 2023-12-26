@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './PixelateImage.css'; // Import the CSS file for styling
 
 const images = [
-  'image1.png',
-  'image2.png',
-  'image3.png',
-  'image4.png',
-  'image5.png',
+  './image1.png',
+  './image2.png',
+  './image3.png',
+  './image4.png',
+  './image5.png',
   // Add more image URLs as needed
 ];
 
