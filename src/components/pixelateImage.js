@@ -3,15 +3,16 @@ import './PixelateImage.css'; // Import the CSS file for styling
 import img1 from './image1.png';
 import img2 from './image2.png';
 import img3 from './image3.png';
-import img4 from './image4.png';
+import img4 from './image13.png';
 import img5 from './image5.png';
-import img6 from './image1.png';
-import img7 from './image2.png';
-import img8 from './image3.png';
-import img9 from './image4.png';
-import img10 from './image5.png';
-import img11 from './image4.png';
-import img12 from './image5.png';
+import img6 from './image6.png';
+import img7 from './image7.png';
+import img8 from './image13.png';
+import img9 from './image9.png';
+import img10 from './image10.png';
+import img11 from './image11.png';
+import img12 from './image12.png';
+import img13 from './image13.png';
 
 const images = [
   img1,
@@ -26,6 +27,7 @@ const images = [
   img10,
   img11,
   img12,
+  img13,
   // Add more image URLs as needed
 ];
 
