@@ -61,63 +61,9 @@ const {runContractFunction} = useWeb3Contract();
       _symAmount : 5,
     }
   };
-  const mintTokenf = {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"publicSaleMint",
-    msgValue: Moralis.Units.ETH("0.36"),
-    gasPrice:"30000000",
-    gas: "5000000",
-    params:{
-      _symAmount : 6,
-    }
-  };
-  const mintTokeng = {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"publicSaleMint",
-    msgValue: Moralis.Units.ETH("0.42"),
-    gasPrice:"30000000",
-    gas: "5000000",
-    params:{
-      _symAmount : 7,
-    }
-  };
-  const mintTokenh = {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"publicSaleMint",
-    msgValue: Moralis.Units.ETH("0.48"),
-    gasPrice:"30000000",
-    gas: "5000000",
-    params:{
-      _symAmount : 8,
-    }
-  };
-  const mintTokeni = {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"publicSaleMint",
-    msgValue: Moralis.Units.ETH("0.54"),
-    gasPrice:"30000000",
-    gas: "5000000",
-    params:{
-      _symAmount : 9,
-    }
-  };
-  const mintTokenj = {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"publicSaleMint",
-    msgValue: Moralis.Units.ETH("0.6"),
-    gasPrice:"30000000",
-    gas: "5000000",
-    params:{
-      _symAmount : 10,
-    }
-  };
+ 
   const getInitialState = () => {
-    const value = "1";
+    const value = "0";
     return value;
   };
 
