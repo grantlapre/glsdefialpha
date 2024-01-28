@@ -16,7 +16,7 @@ function App() {
 
   const pausedSt= {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"setSaleState",
     params:{
       _newState : 0,
@@ -24,7 +24,7 @@ function App() {
   };
   const preSaleSt= {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"setSaleState",
     params:{
       _newState : 1,
@@ -32,7 +32,7 @@ function App() {
   };
   const saleSt = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"setSaleState",
     params:{
       _newState : 2,
