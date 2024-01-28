@@ -143,21 +143,7 @@ const {runContractFunction} = useWeb3Contract();
     case 5:
         runContractFunction({params: mintTokene});
         break;
-    case 6:
-        runContractFunction({params: mintTokenf});
-        break;
-    case 7:
-        runContractFunction({params: mintTokeng});
-        break;
-    case 8:
-        runContractFunction({params: mintTokenh});
-        break;
-    case 9:
-        runContractFunction({params: mintTokeni});
-        break;
-    case 10:
-        runContractFunction({params: mintTokenj}); 
-        break;
+
     default:
   };
     };
@@ -166,16 +152,13 @@ const {runContractFunction} = useWeb3Contract();
     <div>
         <p>Mint Now by selecting number of tokens</p>
       <select value={value} onChange={handleChange}>
+      <option value="0">0</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
+
       </select>
       <p></p>
       <p>{`You selected to mint ${value} NFT tokens`}</p>
