@@ -3,41 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'; 
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import {useWeb3Contract} from 'react-moralis';
-import {abi} from './constants/abi';
 import Cards from './components/cards';
 
 
 function App() {
   const {runContractFunction} = useWeb3Contract();
 
-
-  const pausedSt= {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"setSaleState",
-    params:{
-      _newState : 0,
-    }
-  };
-  const preSaleSt= {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"setSaleState",
-    params:{
-      _newState : 1,
-    }
-  };
-  const saleSt = {
-    abi: abi, 
-    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
-    functionName:"setSaleState",
-    params:{
-      _newState : 2,
-    }
-  };
 
 
   return (
@@ -50,10 +22,8 @@ function App() {
  
        
           <h4>Current State: Paused...</h4>
-          <ButtonGroup>
-            <Button onClick={()=> runContractFunction({params: pausedSt})}>Paused</Button>
-            <Button onClick={()=> runContractFunction({params: saleSt})}>Public Sale</Button>
-          </ButtonGroup>
+
+
  
       </Container>
       <header className="App-header">
