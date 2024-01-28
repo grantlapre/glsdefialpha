@@ -8,7 +8,7 @@ const {runContractFunction} = useWeb3Contract();
   const { Moralis } = useMoralis();
   const mintTokena = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.06"),
     gasPrice:"30000000",
@@ -19,7 +19,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokenb = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.12"),
     gasPrice:"30000000",
@@ -30,7 +30,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokenc = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.18"),
     gasPrice:"30000000",
@@ -41,7 +41,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokend = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.24"),
     gasPrice:"30000000",
@@ -52,7 +52,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokene = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.3"),
     gasPrice:"30000000",
@@ -63,7 +63,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokenf = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.36"),
     gasPrice:"30000000",
@@ -74,7 +74,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokeng = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.42"),
     gasPrice:"30000000",
@@ -85,7 +85,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokenh = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.48"),
     gasPrice:"30000000",
@@ -96,7 +96,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokeni = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.54"),
     gasPrice:"30000000",
@@ -107,7 +107,7 @@ const {runContractFunction} = useWeb3Contract();
   };
   const mintTokenj = {
     abi: abi, 
-    contractAddress:"0xd41DD996Ad1a0da8922A8182A64586307136a37c",
+    contractAddress:"0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9",
     functionName:"publicSaleMint",
     msgValue: Moralis.Units.ETH("0.6"),
     gasPrice:"30000000",
