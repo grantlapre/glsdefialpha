@@ -19,7 +19,8 @@ function App() {
       <Container>
        
           <h1 classname="header">GLSDefi Alpha Project</h1>
- 
+          <h3 classname="header">Contract Address:</h3>
+          <h6 classname="header">0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9</h6>
        
           <h4>Current State: Paused...</h4>
 
@@ -30,7 +31,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Real World Asset Tokenization NFT  
-        </p>
+        </p>       
         <Cards />
         <a
           className="App-link"
