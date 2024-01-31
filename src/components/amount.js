@@ -14,7 +14,7 @@ const {runContractFunction} = useWeb3Contract();
     gasPrice:"30000000",
     gas: "5000000",
     params:{
-      _symAmount : 1,
+      _alphaAmount : 1,
     }
   };
   const mintTokenb = {
@@ -25,7 +25,7 @@ const {runContractFunction} = useWeb3Contract();
     gasPrice:"30000000",
     gas: "5000000",
     params:{
-      _symAmount : 2,
+      _alphaAmount: 2,
     }
   };
   const mintTokenc = {
@@ -36,7 +36,7 @@ const {runContractFunction} = useWeb3Contract();
     gasPrice:"30000000",
     gas: "5000000",
     params:{
-      _symAmount : 3,
+      _alphaAmount : 3,
     }
   };
   const mintTokend = {
@@ -47,7 +47,7 @@ const {runContractFunction} = useWeb3Contract();
     gasPrice:"30000000",
     gas: "5000000",
     params:{
-      _symAmount : 4,
+      _alphaAmount : 4,
     }
   };
   const mintTokene = {
@@ -58,7 +58,7 @@ const {runContractFunction} = useWeb3Contract();
     gasPrice:"30000000",
     gas: "5000000",
     params:{
-      _symAmount : 5,
+      _alphaAmount : 5,
     }
   };
  
@@ -71,9 +71,9 @@ const {runContractFunction} = useWeb3Contract();
 
   const handleChange = (e) => {
     setValue(e.target.value);
-    const symAmount = parseInt(e.target.value);
-    console.log(symAmount);
-    switch(symAmount){
+    const alphaAmount = parseInt(e.target.value);
+    console.log(alphaAmount);
+    switch(alphaAmount){
     case 1:
         runContractFunction({params: mintTokena});
         break;
