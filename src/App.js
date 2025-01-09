@@ -22,7 +22,7 @@ function App() {
           <h3 classname="header">Contract Address:</h3>
           <h6 classname="header">0xA63556e4442cF10EA1d1ABdE363F3FED64d6cff9</h6>
        
-          <h4>Current State: Paused...</h4>
+          <h4>Current State: Public Sale...</h4>
 
 
  
@@ -39,7 +39,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GLSDefi Alpha Project Launching 17/2/2024
+          GLSDefi Alpha Project Launching 9/1/2025
         </a>
       </header>
       
